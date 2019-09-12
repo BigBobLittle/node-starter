@@ -1,0 +1,28 @@
+{
+  "name": "uppercase-project-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bigboblittle/hubtelmomo": "^1.0.7",
+    "@bigboblittle/skiptrycatch": "^3.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "node-rest-client": "^3.1.0",
+    "randn": "^1.0.0",
+    "restler": "^3.4.0",
+    "shortid": "^2.2.14"
+  }
+}
