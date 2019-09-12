@@ -5,8 +5,8 @@ const User = require("../model/user"),
   randn = require("randn"),
   rest = require("restler"),
   Client = require("node-rest-client").Client,
-  Config = require("../config/database"),
-  Helper = require("../helpers/helper");
+  Config = require("../config/database");
+  //Helper = require("../helpers/helper");
 
 /**
  * USER REGISTRATION

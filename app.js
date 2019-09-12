@@ -1,5 +1,4 @@
-const express = require("express"),
-  app = express(),
+const app = require("express")(),
   bodyParser = require("body-parser"),
   cors = require("cors"),
   mongoose = require("mongoose"),
