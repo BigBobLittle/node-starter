@@ -4,6 +4,7 @@ module.exports =  {
     database: process.env.database,
     secret: secret,
     onlineDatabase: process.env.onlineDatabase,
+    port: 7000,
      
   hubtelSms: {
     "ClientId":process.env.hubtelSmsClientId,
@@ -15,6 +16,12 @@ hubtelMomo: {
   "apiKey":  process.env.hubtelMomoApiKey,
   "apiSecret": process.env.hubtelMomoApiSecret
  
+},
+
+testEnv:{
+  testDb: process.env.testDb,
+  port: 3001,
+  testEnv: 'test'
 }
 
 }
